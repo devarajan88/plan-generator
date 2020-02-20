@@ -6,9 +6,9 @@ public class InputParameter {
 
     private int duration;
 
-    private double interestRate;
+    private String nominalRate;
 
-    private double loanAmount;
+    private String loanAmount;
 
     private LocalDate startDate;
 
@@ -20,19 +20,19 @@ public class InputParameter {
         this.duration = duration;
     }
 
-    public double getInterestRate() {
-        return interestRate;
+    public String getNominalRate() {
+        return nominalRate;
     }
 
-    public void setInterestRate(double interestRate) {
-        this.interestRate = interestRate;
+    public void setNominalRate(String nominalRate) {
+        this.nominalRate = nominalRate;
     }
 
-    public double getLoanAmount() {
+    public String getLoanAmount() {
         return loanAmount;
     }
 
-    public void setLoanAmount(int loanAmount) {
+    public void setLoanAmount(String loanAmount) {
         this.loanAmount = loanAmount;
     }
 

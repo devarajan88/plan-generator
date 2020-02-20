@@ -6,7 +6,7 @@ public class ResponseEntity {
 
     private LocalDate date;
 
-    private double annuity;
+    private double borrowerPaymentAmount;
 
     private double principal;
 
@@ -24,12 +24,12 @@ public class ResponseEntity {
         this.date = date;
     }
 
-    public double getAnnuity() {
-        return annuity;
+    public double getBorrowerPaymentAmount() {
+        return borrowerPaymentAmount;
     }
 
-    public void setAnnuity(double annuity) {
-        this.annuity = annuity;
+    public void setBorrowerPaymentAmount(double borrowerPaymentAmount) {
+        this.borrowerPaymentAmount = borrowerPaymentAmount;
     }
 
     public double getPrincipal() {
